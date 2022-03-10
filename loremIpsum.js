@@ -1,0 +1,6 @@
+
+const loremIpsum = {
+  aboutUs: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Porttitor eget dolor morbi non.Lacinia at quis risus sed vulputate.Morbi tristique senectus et netus et malesuada fames ac turpis.At quis risus sed vulputate odio.Risus in hendrerit gravida rutrum quisque non tellus.Est velit egestas dui id ornare arcu odio.Sagittis nisl rhoncus mattis rhoncus urna neque.Odio eu feugiat pretium nibh.Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc.Massa tincidunt dui ut ornare.Gravida arcu ac tortor dignissim convallis aenean et tortor at.Quam lacus suspendisse faucibus interdum posuere lorem ipsum.Varius sit amet mattis vulputate enim nulla.Euismod in pellentesque massa placerat duis ultricies lacus sed turpis.Nunc pulvinar sapien et ligula ullamcorper.Felis eget nunc lobortis mattis aliquam faucibus purus in.Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu.Faucibus interdum posuere lorem ipsum.`,
+}
+
+export default loremIpsum;
