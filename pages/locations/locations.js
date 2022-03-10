@@ -1,4 +1,4 @@
-import locations from "../locationData"
+import locations from "../locations/locationData"
 import styles from '../styles/Home.module.css'
 
 function Locations() {

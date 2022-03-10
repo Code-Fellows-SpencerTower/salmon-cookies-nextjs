@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from '../assets/'
 import styles from '../styles/Home.module.css'
 import loremIpsum from '../loremIpsum'
 // import locations from '../locationData'
-import Locations from './locations'
+import Locations from './locations/locations.js'
 
 let API = `http://localhost:3000/api`;
 
@@ -28,18 +28,18 @@ export default function Home() {
           Welcome to Pats Salmon Cookies!
         </h1>
 
-        <img src="/salmon.png" alt="salmon" id="salmon-img" />
+        <img src="assets/salmon.png" alt="salmon" id="salmon-img" />
         <a href="sales.html" className="page-links" id="sales-link">Sales Data!</a>
 
         <h2>About Us</h2>
         <div id="about-us-container">
           <div id="family-image-div">
-            <img src="/family.jpg" alt="family" id="family" />
+            <img src="assets/family.jpg" alt="family" id="family" />
           </div>
           <div id="lorem-ipsum">
             <p>{loremIpsum.aboutUs}</p>
           </div>
-          <img src="/chinook.jpg" alt="chinook salmon" id="chinook" />
+          <img src="assets/chinook.jpg" alt="chinook salmon" id="chinook" />
         </div>
 
         {/* <p className={styles.description}>
@@ -84,7 +84,7 @@ export default function Home() {
           <p>Seattle, WA, 98121</p>
           <p>Phone: 206-443-9495</p>
         </address>
-        <img src="/fish.jpg" alt="fish" id="fish-school" />
+        <img src="assets/fish.jpg" alt="fish" id="fish-school" />
       </footer>
 
       {/* <footer className={styles.footer}>
